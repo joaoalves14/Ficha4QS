@@ -1,29 +1,26 @@
 public class Aluno {
 
     private String nome;
-    private String matricula;
     private double saldo;
 
-    public Aluno(String nome, String matricula)
+    public Aluno(String nome, double saldo)
     {
         this.nome = nome;
-        this.matricula = matricula;
-        this.saldo = 0.0;
+        this.saldo = saldo;
     }
 
-    public String getNome() {
+    public String getNome()
+    {
         return nome;
     }
 
-    public String getMatricula() {
-        return matricula;
-    }
-
-    public double getSaldo() {
+    public double getSaldo()
+    {
         return saldo;
     }
 
-    public void adicionarSaldo(double valor) {
+    public void adicionarSaldo(double valor)
+    {
         saldo += valor;
     }
 
