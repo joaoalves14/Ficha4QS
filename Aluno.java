@@ -4,7 +4,8 @@ public class Aluno {
     private String matricula;
     private double saldo;
 
-    public Aluno(String nome, String matricula) {
+    public Aluno(String nome, String matricula)
+    {
         this.nome = nome;
         this.matricula = matricula;
         this.saldo = 0.0;
@@ -25,4 +26,5 @@ public class Aluno {
     public void adicionarSaldo(double valor) {
         saldo += valor;
     }
+
 }
